@@ -9,7 +9,7 @@ header{
     align-items:center;
 }
 header .logo{
-        width: 150px;
+        width: 400px;
     }
 header .logo img{
        width: 100%;
@@ -30,7 +30,7 @@ header ul li a{
 	transition: all 500ms ease-in 200ms;
 }
 header ul li a:hover{
-	background: black;
+	background: purple;
 	color: #fff;
 }
 div.content{
@@ -60,7 +60,7 @@ main .noticia p{
 	margin-bottom: 15px;
 }
 main .noticia a{
-	background: blue;
+	background: purple;
 	color: #fff;
 	text-decoration: none;
 	padding: 5px 15px;
@@ -79,13 +79,32 @@ main .grid-3 .coluna img{
 main .grid-3 .coluna h3{
 	text-transform: uppercase;
 	text-align: center;
-	color: red;
-
+	color: black;
 }
+
+
+main .grid-3 .coluna p{
+	text-align: center;
+	color:blue;
+	font-size: 18px;
+}
+main .grid-3 .coluna a{
+	background: purple;
+	color: white;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+main .grid-3 .coluna a:hover{
+	background: pink;
+}
+
+
 aside{
 	width: 20%;
 	height: 60vh;
-	background: gray;
+	background: purple;
 }
 footer{
 	width: 100%;
