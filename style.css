@@ -121,10 +121,12 @@ footer{
 footer h2{
 	font-size: 26px;
 	color: purple;
-	text-transfom: uppercase;
+	text-transform: uppercase;
 }
 footer form{
 	border: 1px solid white;
+ display: flex;
+ flex-direction: column;
 }
 footer form input[type='text']{
 	height: 30px;
@@ -139,6 +141,6 @@ footer form input[type='submit']{
 	padding: 7px 15px;
 	border: 0;
 }
-footer form input[type='submit]:hover{
-	backgorund: red;
+footer form input[type='submit']:hover{
+	background: red;
 }
